@@ -1,0 +1,102 @@
+@media (max-width: 1199px) {
+	.footer-social li:first-child {
+		padding-left: 83px;
+    }
+}
+
+@media (max-width: 991px) {
+	.footer-social li:first-child {
+		padding-left: 17px;
+    }
+    small {
+		margin-top: 30px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.nav-menu_icon {
+		display: block;
+		position: absolute;
+		right: 35px;
+		bottom: 20px;
+		font-size: 20px;
+	}
+	.nav-items {
+		display: none;
+		flex-direction: column;
+		text-align: center;
+	}
+	.nav-items li:not(:last-child) {
+		padding-bottom: 5px;
+	}
+	.nav-items li:first-child {
+		padding-top: 10px;
+	}
+	.nav-items li .a1 {
+		background-color: transparent;
+		color: black;
+		color: #FF6300;
+		transform: skewX(0deg);
+		padding: 5px 0;
+	}
+	.nav-items li .a1 span {
+		transform: skewX(0deg);
+	}
+	.nav-items li .a1:hover {
+		background-color: transparent;
+		border: 2px solid #bf4b03;
+	}
+	.nav-menu {
+		position: relative;
+	}
+	.nav-items_active {
+		display: flex;
+	}
+	.team-items {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+	.team-p {
+		max-width: 600px;
+		margin-bottom: 40px;
+		margin-top: -20px;
+	}
+	.sidebar-adapt {
+		background-color: white;
+		position: relative;
+		top: 15px;
+		cursor: pointer;
+		transition: 0.2s;
+		display: block;
+		z-index: 10;
+		padding: 10px 29px;
+	}
+	.sidebar-adapt_text span {
+		color: #FF6300;
+	}
+	.sidebar-adapt_icon {
+		position: absolute;
+		right: 20px;
+		top: 8px;
+		font-size: 20px;
+	}
+	.sidebar-adapt:hover {
+		background-color: #FF6300;
+	}
+	.sidebar-adapt:hover span {
+		color: white; 
+	}
+	.sidebar-adapt:hover .sidebar-adapt_icon {
+		color: white;
+	}
+	.left-sidebar {
+		display: none;
+	}
+	.left-sidebar_active {
+		display: block;
+	}
+	.footer-social {
+		text-align: right;
+	}
+}
